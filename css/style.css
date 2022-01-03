@@ -5,8 +5,9 @@ body {
   box-sizing: border-box;
 }
 .nav-continer {
+  display: flex;
   height: 70px;
-  width: 1260px;
+  width: 1280px;
   background-color: green;
 }
 .logo {
@@ -20,3 +21,45 @@ body {
 /* font-family: 'Bitter', serif;
 font-family: 'Roboto', sans-serif;
 font-family: 'Scheherazade New', serif; */
+/* .nav-continer ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-continer ul li {
+  list-style: none;
+  box-sizing: border-box;
+}
+.nav-continer ul li a {
+  text-decoration: none;
+  margin-left: 40px;
+  font-size: 30px;
+} */
+.menu {
+  font-size: 30px;
+  font-family: "Roboto";
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+ul {
+  margin-top: 15px;
+  display: flex;
+  float: left;
+  justify-content: center;
+  align-items: center;
+}
+li {
+  list-style: none;
+  margin-left: 40px;
+
+  box-sizing: border-box;
+}
+a {
+  padding: 19px;
+  text-decoration: none;
+  color: #fff;
+}
+a:hover {
+  background-color: rgb(27, 185, 27);
+  color: rgb(255, 255, 255);
+}
